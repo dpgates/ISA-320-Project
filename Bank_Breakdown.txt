@@ -1,0 +1,34 @@
+This is for customers and managers to conduct banking transactions from anywhere in Hawaii.
+Customers should be able to log in using a username and password.
+Customers should be able to:
+    View Current Balance
+    Update/Change Passwords to Their Accounts
+Bank Manager should be able to modify the balances of Customer Accounts, as needed by:
+Depositing Money (e.g. adding money to the customer's account)
+Withdrawing Money (e.g. subtracting money from the customer's account)
+View the balance of all customer accounts (e.g. list and sum all the balances to see how much money the bank has in total)
+View the balance of the account of a specific Customer by providing the account number and customer name. 
+
+
+tables:
+    Accounts
+    Customers
+    Managers
+    password?
+
+Function 
+    Customer
+        access account
+        modify password
+        balance 
+    Manager
+        Deposit - any cust 
+        Withdraw - any cust
+        View - all cust accounts
+        View - all specfic cust account using accnt# and cust name 
+
+
+create db 
+    isa_bank_db
+    create tables bnk_cust, bnk_mgt, bnk_accnt 
+    insert into tables 
